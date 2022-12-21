@@ -14,13 +14,13 @@
   "keywords": [
     "pm2"
   ],
-  "config" : {
-    "default-strategy" : "broadcast"
-  }, 
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remoting/pm2-process.git"
+  },
   "apps" : [{             
     "script"             : "index.js",
-    "merge_logs"         : true,
-    "max_memory_restart" : "200M"
+    "merge_logs"         : true
   }],
   "author": "Keymetrics Inc.",
   "license": "MIT"
